@@ -1,0 +1,13 @@
+^Help - Go
+USAGE: .go ^room
+WHERE: ^room^ is the name of an available room
+
+Use this command when you want to go to another room on the Talker.  Without
+specifying a room, it takes you back to the main room.
+
+EXAMPLES
+  .go
+  .go casino
+
+SEE ALSO
+  ^.help rooms^, ^.help map

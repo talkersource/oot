@@ -1,0 +1,15 @@
+^Help - AFK
+USAGE: .afk ^message
+WHERE: ^message^ is an optional message to display.
+
+Use this command when you want to tell people you have gone ^A^way ^F^rom
+your ^K^eyboard.
+
+EXAMPLES
+  .afk
+  .afk has left the room for a minute, be right back!
+
+To get back from afk, just start typing again.
+
+SEE ALSO
+  ^.help who

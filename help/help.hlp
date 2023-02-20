@@ -1,0 +1,17 @@
+^Help - Help
+QUICK TIPS
+
+1) Everything may be abbreviated.  This includes commands, user names,
+   and room names.  The only thing which must be typed in full is the ^off^
+   or ^on^ part of a .set command.
+
+2) For help on a particular command type: .help command
+   (Replace "command" with one of the available commands.)
+   
+3) For some commands, leaving off all parameters will display you that the
+   current settings.
+
+4) All commands must begin with a period, except for abbreviations.
+
+SEE ALSO
+  ^.help commands^, ^.help abbr

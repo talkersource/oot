@@ -1,0 +1,10 @@
+^Help - View
+USAGE: .view ^user
+WHERE: ^user^ is a user you want to view
+ 
+Use this command when you want to look up a ^user^'s profile.  If the ^user^
+is online, you may abbreviate their alias.  If the ^user^ is offline, you
+must specify their alias in full.
+
+SEE ALSO
+  ^.help information^, ^.help examine

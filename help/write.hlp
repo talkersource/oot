@@ -1,0 +1,8 @@
+^Help - Write
+USAGE: .write ^message^
+WHERE: ^message^ is the message to write on the current room's message board
+
+Use this command when you want to write a message that everybody can .read.
+
+SEE ALSO
+  ^.help read^, ^.help wipe

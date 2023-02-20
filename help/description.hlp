@@ -1,0 +1,15 @@
+^Help - Description
+USAGE: .description ^text
+WHERE: ^text^ is your new description
+
+Use this command when you want to change what people see in a who list,
+and when you logon or logoff.
+
+Typing ^.description^ without any ^text^ will show you your current
+description.
+
+EXAMPLES
+  .description is not a newbie!
+
+SEE ALSO
+  ^.help who

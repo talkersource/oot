@@ -1,0 +1,15 @@
+^Help - Tell
+USAGE: .tell ^user^,^user2^ message
+WHERE: ^user^ is a user who is currently online
+       ^user2^ is the name of another user (optional) currently online
+       ^message^ is what you wish to tell
+
+Use this command when you want to tell ^user^ (or more users, separated by
+commas without spaces) a ^message^ that nobody else will see.
+
+EXAMPLES
+  .tell bob How is the wife?
+  .tell beth,chris,mel How you gals doing?
+
+SEE ALSO
+  ^.help pemote^, ^.help say^, ^.help shout^, ^.help abbr

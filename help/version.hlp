@@ -1,0 +1,8 @@
+^Help - Version
+USAGE: .version
+
+Use this command when you want to see the version number (an indicator as
+to how many times the code has been changed) of the Talker.
+
+SEE ALSO
+  ^.help time

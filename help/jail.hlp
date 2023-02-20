@@ -1,0 +1,16 @@
+^Help - Jail
+USAGE: .jail ^user
+WHERE: ^user^ is somebody you wish to remove from the Talker.
+ 
+Use this command when you want to automatically:
+
+1) Demote a user to the lowest level
+2) Move the user into a "jail" room
+3) Deny the user from using most normal commands (.tell, .shout, etc.)
+4) Make the user log into the jail room at each logon
+5) Change the user's description to indicate jailed state
+
+Captain's may not be jailed.  Even by other Captain's.
+ 
+SEE ALSO
+  ^.help kill^, ^.help nuke

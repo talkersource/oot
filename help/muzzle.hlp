@@ -1,0 +1,10 @@
+^Help - Muzzle
+USAGE: .muzzle ^user
+WHERE: ^user^ is somebody online you wish to muzzle
+ 
+Use this command when you wish to stop a ^user^ from being 
+able to shout.  Use the command on a muzzled users to unmuzzle 
+them.
+ 
+SEE ALSO
+  ^.help kill^, ^.help nuke

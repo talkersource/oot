@@ -1,0 +1,8 @@
+^Help - Join
+USAGE: .join ^user
+WHERE: ^user^ is the alias of somebody online with you
+
+Use this command when you want to warp to the room that ^user^ is in.
+
+SEE ALSO
+  ^.help go^, ^.help bring^, ^.help move^, ^.help invite

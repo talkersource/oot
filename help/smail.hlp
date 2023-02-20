@@ -1,0 +1,11 @@
+^Help - Smail
+USAGE: .smail ^user message
+WHERE: ^user^ is an alias
+       ^message^ is a message you wish them to get
+
+Use this command when you want to leave a ^message^ to ^user^ that can be read
+later.  This works even if ^user^ is offline.  If they are online, they will
+be notified immediately that you have written them smail.
+
+SEE ALSO
+  ^.help rmail^, ^.help cmail

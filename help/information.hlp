@@ -1,0 +1,21 @@
+^Help - Information
+USAGE: .information [^list^] [^#^ [^New Text^]]
+
+Use this command when you wish to change your information.  There are a
+couple ways you may do this:
+
+1) By typing ^.information^ on a line by itself.  This will allow you to
+   enter in your information all at once, prompting you line by line.
+
+2) By typing ^.information # New Text^.  For example:
+     .information 3 This is the new information for the third line!
+
+   This comes in handy when you discover you have made a mistake somewhere
+   in your information, but don't wish to change the whole thing.
+
+Lastly, by typing ^.information list^, your information will be displayed
+on your screen with line numbers beside each line.  This is to aid you in
+changing a single line of your information.
+
+SEE ALSO
+  ^.help view^, ^.help examine

@@ -1,0 +1,8 @@
+^Help - Private
+USAGE: .private
+
+Use this command when you want to stop anybody else from entering the
+room.  To make the room public, merely issue the command again.
+
+SEE ALSO
+  ^.help invite^, ^.help rooms

@@ -1,0 +1,16 @@
+^Help - Say
+USAGE: .say ^message
+WHERE: ^message^ is something you want to say.
+ 
+Use this command when you want to say something to other users that are in the
+same room as you.  This is the default command, which means you never have to
+type ^.say^ before you type in your message.
+
+^.say^ by itself will show you the last things said within the room.
+ 
+EXAMPLES
+  .say Hi!
+  Hello!
+ 
+SEE ALSO
+  ^.help tell^, ^.help shout^, ^.help cbuff

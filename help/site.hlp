@@ -1,0 +1,7 @@
+^Help - Site
+USAGE: .site
+
+Use this command when you want to see where people are telnetting from.
+
+SEE ALSO
+  ^.help who

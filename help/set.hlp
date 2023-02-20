@@ -1,0 +1,17 @@
+^Help - Set
+USAGE: .set [^option^]
+WHERE: ^option^ is what you want to change
+
+Without any ^option^, this command will list your current settings.
+
+Here is a list of all available ^options^:
+
+  alias      beeps      bold       brief      colour     columns
+  email      fixcr      feedback   homepage   logons     normal
+  rows       say        shout      tell
+
+^Wizard
+  broadcasts monitor    wizcasts
+
+SEE ALSO
+  ^.help

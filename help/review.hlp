@@ -1,0 +1,14 @@
+^Help - Review
+USAGE: .review [^room name^]
+
+Use this command when you want to see the last few things said in your current
+room, or the room specified by ^room name^.
+
+Note that you may only do a ^.review^ on rooms that are public.
+
+EXAMPLES
+  .rev
+  .rev Main
+
+SEE ALSO
+  ^.help tell^, ^.help say

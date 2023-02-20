@@ -1,0 +1,10 @@
+^Help - Promote
+USAGE: .promote ^user
+WHERE: ^user^ is somebody you wish to promote
+ 
+Use this command when you wish to raise the rank (and hence availability of
+commands) of a user that is currently online.  Be careful, as an SU may not
+be demoted from online.
+ 
+SEE ALSO
+  ^.help up^, ^.help demote^, ^.help rank

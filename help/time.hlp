@@ -1,0 +1,7 @@
+^Help - Time
+USAGE: .time
+
+Use this command when you want to see how long ago the talker was booted.
+
+SEE ALSO
+  ^.help shutdown

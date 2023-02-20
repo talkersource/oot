@@ -1,0 +1,10 @@
+^Help - Shout
+USAGE: .shout ^message
+WHERE: ^message^ is what you wish to shout to everybody.
+
+Use this command when you want to do shout a ^message^ to all the other users
+on the Talker.  Without a ^message^, the command will review the last several
+shouts.
+
+SEE ALSO
+  ^.help tell^, ^.help say^, ^.help abbr

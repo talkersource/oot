@@ -1,0 +1,86 @@
+# OOT (C) 1996 by Dave Jarvis and Ken Savage
+#
+# How this file works:
+#
+# 1) You may only change the name of the command, and/or the level number.
+#
+# 2) OOT will search for commands starting from the bottom of this file to
+#    the top.  This means that when ".who" is abbreviated to ".w", it will
+#    be found before ".with".  As well, ".wi" will be ".with", and ".wiz"
+#    will be ".wizcast".  ".wr", however, will always be ".write".
+#
+# 3) If you rename a command, be sure to take the previous paragraph into
+#    account.  Typically any user commands should be found before the Wizard
+#    or God commands, lest the user have to type in more than is necessary to
+#    execute the command.  For example, moving the line which contains
+#    "wizcast" below the line that contains "who" will result in users trying
+#    to do ".wizcast" whenever they type ".w".
+#
+Name = woohoo        Level = 2      Method = 620
+Name = write         Level = 2      Method = 610
+Name = wipe          Level = 3      Method = 600
+Name = wizcast       Level = 3      Method = 110
+Name = with          Level = 1      Method = 590
+Name = who           Level = 1      Method = 580
+Name = version       Level = 1      Method = 570
+Name = view          Level = 2      Method = 560
+Name = up            Level = 3      Method = 550
+Name = topic         Level = 2      Method = 540
+Name = time          Level = 1      Method = 535
+Name = tell          Level = 2      Method = 530
+Name = suggest       Level = 2      Method = 525
+Name = stun          Level = 3      Method = 520
+Name = sos           Level = 2      Method = 515
+Name = smail         Level = 2      Method = 510
+Name = site          Level = 3      Method = 500
+Name = shutdown      Level = 4      Method = 490
+Name = shout         Level = 2      Method = 480
+Name = search        Level = 2      Method = 475
+Name = semote        Level = 2      Method = 470
+Name = set           Level = 1      Method = 460
+Name = say           Level = 1      Method = 450
+Name = rooms         Level = 1      Method = 440
+Name = rmail         Level = 1      Method = 430
+Name = rank          Level = 3      Method = 420
+Name = read          Level = 1      Method = 410
+Name = review        Level = 1      Method = 400
+Name = quit          Level = 0      Method = 390
+Name = password      Level = 1      Method = 380
+Name = promote       Level = 4      Method = 370
+Name = private       Level = 2      Method = 360
+Name = pemote        Level = 2      Method = 350
+Name = nuke          Level = 4      Method = 340
+Name = muzzle        Level = 3      Method = 330
+Name = move          Level = 4      Method = 320
+Name = map           Level = 1      Method = 310
+Name = macro         Level = 2      Method = 300
+Name = load          Level = 4      Method = 290
+Name = look          Level = 1      Method = 280
+Name = kill          Level = 3      Method = 270
+Name = knock         Level = 2      Method = 265
+Name = jail          Level = 3      Method = 260
+Name = join          Level = 2      Method = 250
+Name = invite        Level = 2      Method = 240
+Name = information   Level = 2      Method = 230
+Name = hide          Level = 3      Method = 220
+Name = help          Level = 1      Method = 210
+Name = go            Level = 1      Method = 200
+Name = free          Level = 3      Method = 190
+Name = examine       Level = 1      Method = 180
+Name = ewizcast      Level = 3      Method = 170
+Name = echo          Level = 3      Method = 160
+Name = emote         Level = 1      Method = 150
+Name = down          Level = 3      Method = 140
+Name = demote        Level = 4      Method = 130
+Name = description   Level = 2      Method = 120
+Name = cmail         Level = 1      Method = 100
+Name = cls           Level = 1      Method = 90
+Name = cbuff         Level = 2      Method = 80
+Name = colours       Level = 1      Method = 70
+Name = broadcast     Level = 3      Method = 60
+Name = bring         Level = 3      Method = 50
+Name = bot           Level = 4      Method = 40
+Name = bansite       Level = 3      Method = 30
+Name = beep          Level = 2      Method = 20
+Name = abbr          Level = 2      Method = 15
+Name = afk           Level = 1      Method = 10

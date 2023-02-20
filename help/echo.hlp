@@ -1,0 +1,10 @@
+^Help - Echo
+USAGE: .echo ^message
+WHERE: ^message^ is something you wish to say anonymously
+ 
+Use this command when you want to say something to the room which does not
+have your alias prepended to it.
+ 
+SEE ALSO
+  ^.help say^, ^.help emote^, ^.help tell
+

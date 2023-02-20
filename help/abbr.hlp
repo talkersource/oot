@@ -1,0 +1,18 @@
+^Help - Abbr
+USAGE: .abbr [^char^ [^command^]]
+WHERE: ^char^ is a single character you wish to use to do ^command^
+
+Use this command when you want to change any of your abbreviations.  This
+is helpful if you use other talker codes and are used to ^<^, for example,
+doing ^.pemote^.  The ^command^ you specify may also be a macro.
+
+Typing ^.abbr^ on a line by itself will display all your current abbreviations.
+
+Typing ^.abbr ;^ would delete your ^.emote^ macro.
+
+EXAMPLES
+  .abbr
+  .abbr & .shout
+
+SEE ALSO
+  ^.help commands

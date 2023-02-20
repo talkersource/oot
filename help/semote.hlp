@@ -1,0 +1,12 @@
+^Help - Semote
+USAGE: .semote ^message
+WHERE: ^message^ is what you wish to semote to everybody in the room.
+
+Use this command when you want to do an action to all the other users on
+the Talker.
+
+EXAMPLES
+  .semote smiles.
+
+SEE ALSO
+  ^.help pemote^, ^.help shout^, ^.help emote^, ^.help abbr

@@ -1,0 +1,9 @@
+^Help - Socials
+
+The following commands perform an action.  Those which have an * beside them
+require that you type in a user's alias, or general text, after the command.
+
+  ^.kiss *    .sing *    .think *   .wink *
+
+SEE ALSO
+  ^.help

@@ -1,0 +1,10 @@
+^Help - Kill
+USAGE: .kill ^user
+WHERE: ^user^ is somebody you wish to remove from the Talker.
+ 
+Use this command when you want to forcibly cause another user 
+to quit from the Talker.  Captain's may kill any other user, 
+Crew members may only kill users of lower rank.
+ 
+SEE ALSO
+  ^.help site

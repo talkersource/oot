@@ -1,0 +1,13 @@
+^Help - Ewizcast
+USAGE: .ewizcast ^message
+WHERE: ^message^ is something you wish to emote to other users
+
+Use this command when you want to emote a message to only the Wizards and
+Gods that are online.
+
+EXAMPLES
+  .ewizcast
+  .ewizcast smiles.
+
+SEE ALSO
+  ^.help wizcast^, ^.help emote^, ^.help pemote^, ^.help semote^, ^.help abbr

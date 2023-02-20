@@ -1,0 +1,9 @@
+^Help - Down
+USAGE: .down ^user
+WHERE: ^user^ is somebody online you wish to demote
+ 
+Use this command when you wish to lower the rank of a regular user so that
+she can no longer use most commands.  This command is available to helpers.
+ 
+SEE ALSO
+  ^.help demote^, ^.help up^, ^.help rank

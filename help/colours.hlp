@@ -1,0 +1,13 @@
+^Help - Colours
+USAGE: .colours
+ 
+This is an enhancement to ^bold^.
+ 
+To use colour, merely type a number immediately following the bold
+character.  (The bold character is^ ^^^.)
+ 
+^^1 = ^1BLUE^, ^^2 = ^2GREEN^, ^^3 = ^3RED^, ^^4 = ^4MAGENTA^, ^^5 = ^5CYAN^, ^^6 = ^6YELLOW^,
+^^7 = ^7WHITE^, ^^8 = ^8R^8A^8N^8D^8O^8M^.
+ 
+SEE ALSO
+  ^.help set

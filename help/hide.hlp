@@ -1,0 +1,15 @@
+^Help - Hide
+USAGE: .hide [^user^]
+WHERE: ^user^ is optionally somebody you wish to hide
+ 
+Use this command when you want to hide a ^user^ from all other people online
+that are the same rank as ^user^ or lower.  Without specifying a ^user^, it
+will hide yourself.
+ 
+EXAMPLES
+  .hide bob
+  .hide
+ 
+SEE ALSO
+  ^.help who^, ^.help look
+

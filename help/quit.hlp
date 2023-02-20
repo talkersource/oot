@@ -1,0 +1,9 @@
+^Help - Quit
+USAGE: .quit
+
+Use this command when you want to leave the Talker.  If you have changed
+your password, or your description, it will be saved for the next time you
+log on.
+
+SEE ALSO
+  ^.help set

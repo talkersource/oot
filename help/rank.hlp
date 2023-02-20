@@ -1,0 +1,7 @@
+^Help - Rank
+USAGE: .rank
+ 
+Use this command when you wish to see the rank of every user that is online.
+ 
+SEE ALSO
+  ^.help promote^, ^.help demote

@@ -1,0 +1,7 @@
+^Help - Map
+USAGE: .map
+ 
+Use this command when you want to see the room interconnections of the Talker.
+ 
+SEE ALSO
+  ^.help go^, ^.help rooms

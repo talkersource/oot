@@ -1,0 +1,16 @@
+^Help - Cmail
+USAGE: .cmail [^#-##,###^]
+WHERE: ^#-##,###^ represents the smail numbers to delete
+
+Use this command when you want to delete some smail that was left for you.
+When deleting all your smail, you must type ^all^ in full.
+
+EXAMPLES
+  .cmail all              Delete all your smail
+  .cmail 1-4, 26          Delete messages 1 through 4 and message 26
+  .cmail 5,6,9            Delete messages 5, 6, and 9
+  .cmail 24-              Delete the next 24 messages from message 24
+  .cmail -13              Delete messages up to message 13
+
+SEE ALSO
+  ^.help rmail^, ^.help smail

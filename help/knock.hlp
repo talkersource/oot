@@ -1,0 +1,10 @@
+^Help - Knock
+USAGE: .knock ^room
+WHERE: ^room^ is the room you wish to enter
+
+This command allows you to request access into a private room, or a room
+you don't have access to.  All parties in the given room will be notified
+of your knock request.
+
+SEE ALSO
+  ^.help private

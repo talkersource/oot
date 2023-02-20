@@ -1,0 +1,10 @@
+Name = Jail
+Access = 1
+Lock = 4
+Review = 1
+View = 3
+Warp = 3
+
+<desc>
+You've been arrested!
+</desc>

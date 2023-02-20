@@ -1,0 +1,9 @@
+^Help - Bot
+USAGE: .bot ^user^
+WHERE: ^user^ is a user you wish to make a Bot
+
+Use this command when there is a Bot online you wish to have speak the
+Bot Protocol.
+
+SEE ALSO
+  ^.help who

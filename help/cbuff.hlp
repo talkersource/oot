@@ -1,0 +1,7 @@
+^Help - Cbuff
+USAGE: .cbuff
+
+Use this command when you want to erase the current room's review buffer.
+
+SEE ALSO
+  ^.help review^, ^.help say

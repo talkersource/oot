@@ -1,0 +1,8 @@
+^Help - Shutdown
+USAGE: .shutdown
+ 
+Use this command when you wish to take the Talker offline.  It will first
+remove all users from the Talker, then proceed to shut itself down.
+
+SEE ALSO
+  ^.help bansite

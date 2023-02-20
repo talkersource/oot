@@ -1,0 +1,12 @@
+^Help - Free
+USAGE: .free ^user
+WHERE: ^user^ is somebody you wish to unarrest.
+ 
+Use this command when you want to unarrest a user.  This command will:
+  1) Promote the user to User status
+  2) Move them back into the main room (if they aren't already there)
+
+Be aware that the user will need to be unmuzzled, and possibly promoted.
+ 
+SEE ALSO
+  ^.help jail

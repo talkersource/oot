@@ -1,0 +1,7 @@
+^Help - Rooms
+USAGE: .rooms
+
+Use this command when you want to see all the visible rooms on the Talker.
+
+SEE ALSO
+  ^.help map

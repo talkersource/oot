@@ -1,0 +1,11 @@
+Name = Somewhere
+Access = 2
+Lock = 2
+Review = 2
+View = 2
+Warp = 2
+
+<desc>
+An ache deep behind your eyeballs tells you that you are in fact, Somewhere.
+Which is a relief, as you know that Nowhere is somewhere close by ...
+</desc>

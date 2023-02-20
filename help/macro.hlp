@@ -1,0 +1,22 @@
+^Help - Macros
+USAGE: .macro [^delete^] ^name definition
+WHERE: ^name^ is the name of your macro
+       ^definition^ is what you want the macro to do
+       ^delete^ indicates you wish to remove the defintion for ^name^
+
+Use this command when you want to make, or delete short-cuts for frequently
+typed actions.  Type ^.macro^ by itself to see your current macros.
+
+EXAMPLES
+  .macro laugh ; laughs her fool head off!
+  .macro 0 ; hugs
+  .macro glare ; ^^3glares^^ at ^^6*^^!
+
+THEN TRY
+  .lau
+  .0 Thangalin
+  .glare you
+  .mac del lau
+
+Keep in mind that if you make a macro that is similar to a command, the
+command will always override your macro.

@@ -1,0 +1,448 @@
+# OOT (C) 1996 by Dave Jarvis and Ken Savage
+#
+# How this file works:
+#
+# 1) Do NOT remove, nor change, the numbers that are listed to the left of
+#    each line of text.  You may move an entire line of text to a different
+#    location in the file, but ensure that the number goes with it!  Don't
+#    ask why the numbers aren't in any particular order.
+#
+# 2) Lines that do not start with a number are ignored
+#
+# 3) Where it makes sense, the following substitutions are made within
+#    each string (always keep them in lower case):
+#
+#    a) %u - the user's name who did the action (if only one user involved)
+#          - the user's name who had the action done to (if two users involved)
+#    b) %r - the name of the room %u was, is, or will be in (whichever
+#            situtation it applies to)
+#    c) %w - the user's name who did the action on %u (if two users invovled)
+#    d) %l - the level of %u, or level of %r
+#    e) %desc - the description of %u
+#    f) %number - the number of smail items a user cleared
+#               - the number of messages wiped
+#    g) %s - what the user "said" (tell, shout, wizcast, etc.)
+#
+# 4) If a %u or %w isn't shown, it doesn't mean you can't add one.  Try
+#    putting them in different places and see what happens. 
+#
+# Have fun!!
+
+# Newbie & Arrested description
+  0 - A %l.
+  1 - In the brig.
+
+# Room entrances & room exits.  Note the lack of %u; this is because it is
+# the user actually "saying" the action herself.
+  2 walks in from %r.
+  3 appears in the mist (came from %r).
+  4 goes to the %r.
+  5 disappears into (%r) the mist!
+  9 %u says: %s
+ 10 ! %u shouts: %s
+ 20 ^ -> %u tells you: %s
+ 38 %u set the topic to: %s
+
+# User was .moved exit and entrance
+  6 is pulled into the mist!
+ 76 stumbles in from the mist!
+
+# User becomes invisible, and visible again
+ 79 has stepped into the fog.
+ 80 steps out of the fog.
+
+# Leaving the keyboard things
+  8 has gone away from the keyboard.
+ 95 has returned to the keyboard!
+152  -- (AFK)
+
+# Logging in (normal user)
+ 11 Enter your Alias: 
+ 12 Enter your Password: 
+ 99 You must give at least three letters and/or numbers for your alias.
+
+# Password prompt for newbie
+ 13 Enter a Password: 
+ 14 Retype that Password: 
+ 15 Passwords must be the same, %u.
+ 16 Incorrect Password!
+165 That password is too short.
+
+# Newbie welcome message
+ 17 Welcome aboard, %u!
+
+# Command does not exist; needs more access; has no help
+ 18 What does that do?
+ 19 I bet you'd like to do that!
+ 51 On your own for that one, sorry.
+
+# Message said to all users at shutdown
+ 21 %u shouts, "All hands abandon ship!!"
+
+# Misspelled room, misspelled user name
+ 22 %r does not exist.
+ 23 %u is not aboard.
+
+# Room name expected; none given
+ 60 Need a room for that.
+
+# No such user exists on the system
+ 66 %u does not exist.
+
+# Moved a user from a room into same room: specific & generic
+ 24 Already in the room.
+ 25 %u is already in %r!
+
+# Room feedback strings
+ 26 %r is not adjoined.
+ 35 %r is locked.  
+ 36 %r is unlocked.  
+ 37 At least two people must be here before you may lock %r.
+ 39 Current topic is: 
+ 41 You clear the review buffer.
+ 42 %r's access level changed to %l.
+167 %r's lockable level changed to %l.
+168 %r's visable level changed to %l.
+169 %r's warpable level changed to %l.
+ 52 %r is currently private.
+ 69 You are now in %r.
+ 78 %r may not be locked.
+119 %r is already unlocked.
+120 %u has invited you to %r.
+121 %u was already invited to %r.
+
+# The name of an invisible room (no longer than 15 characters)
+ 40 -    ?    -
+# No parameter to .set room
+ 58 Current room settings %r:
+
+# (***UNUSED***)
+ 43 Room is now visible to all.
+ 44 Room is now invisible.
+
+# User description strings
+ 45 Your description is: %desc
+ 46 Changed description to: %desc
+
+# User is looking around the room
+ 49 With you, you see:
+ 50 Absolutely nobody.
+
+# Alias matched more than one user
+ 53 Multiple users.  Be more specific.
+ 54 %u is ignoring tells.
+
+# Generic successful command
+ 55 OK.
+
+# User name expected; none given
+ 59 Who do you wish to do that to?
+
+# Profile accessing ...
+ 63 >- Press . on an empty line to quit ------ Type no lines longer than this! -<
+ 64 Your information has been saved.
+ 65 Information not changed.
+ 67 _-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-_
+ 68 ~-_________________________________________________________________________-~
+
+# User is editing profile/room
+115 %u user is editing, try again later.
+
+# User is doing something vital (like logging in, or reading text)
+ 82 %u may not be disturbed.
+
+# Promotions/demotions ...
+ 72 %w has promoted %u to %l!
+ 73 %w has demoted %u to %l!
+170 You may only promote %ls.
+171 You may only demote %ls.
+
+# Crew tried to kill crew
+ 74 You cannot kill a fellow mate.
+
+# User changed case of alias
+ 75 You changed your alias to: %u
+190 Your current alias is: %u
+
+# Alias for an invisible user
+ 77 A Voice
+
+# User viewing settings
+ 81 Your current settings are:
+
+# Interacting with other users ...
+ 83 You tell %u: 
+ 84 You pemote to %u: 
+
+# Delimeters
+ 27 <=- Begin Says -=>
+ 28 <=-  End Says  -=>
+ 91 <=- Begin Macros -=> 
+ 92 <=-  End Macros  -=>
+105 <=- Begin Tells -=>
+106 <=-  End Tells  -=>
+107 <=- Begin Viewing -=>
+108 <=-  End Viewing  -=>
+122 <=- Begin Invited Users -=>
+123 <=-  End Invited Users  -=>
+124 <=- Begin Shouts -=>
+125 <=-  End Shouts  -=>
+126 <=- Begin Wizcasts -=>
+127 <=-  End Wizcasts  -=>
+188 <=- Banned Sites Start -=>
+189 <=-  Banned Sites End  -=>
+
+# Macro messages
+ 87 The macro has been added.
+ 88 You have run out of macro slots.
+ 89 That macro could not be found.
+ 90 That macro has been deleted.
+ 93 Macros may not use other macros.
+
+# User's personal status indicators
+ 29 Ignoring the general chat.
+ 30 Reading the general chat.
+ 31 Ignoring pesky shouts.
+ 32 Reading pesky shouts.
+ 33 Ignoring logon and logoffs.
+ 34 Reading logon and logoffs.
+ 47 Colour is now on.
+ 48 Colour is now off.
+ 56 Reading talker feedback.
+ 57 Ignoring talker feedback.
+ 61 Bold is now off.
+ 62 Bold is now on.
+ 70 Reading room descriptions.
+ 71 Ignoring room descriptions.
+ 85 Your carriage returns are now on.
+ 86 Your carriage returns are now off.
+ 97 Reading private tells.
+ 98 Ignoring private tells.
+100 Listening to your enemies.
+101 Ignoring your enemies,
+102 Watching pretty pictures.
+103 Ignoring pictures.
+116 Reading Wiz messages.
+117 Ignoring Wiz messages.
+141 Reading Broadcast messages.
+142 Ignoring Broadcast messages.
+143 Monitoring other users.
+144 Not monitoring other users.
+
+# .set normal
+104 Reading status back to defaults.
+
+# User & Crew .moved messages
+109 has been hauled to %r!
+110 has been snagged by the jib to %r!
+
+# User muzzled, and unmuzzled
+111 You have been muzzled by %u!
+112 You have been unmuzzled by %u.
+
+# Same, only for Crew indication messages
+113 has muzzled %u!
+114 has unmuzzled %u.
+
+# Killed from the Talker
+  7 %u has been thrown overboard by %w!
+# A user gets .nuked
+118 You hear the kiss of Thunder, and see distant Lightning strike water.
+
+# Invisible user .telled a bot
+128 You must be visible to tell a Bot.
+# Feedback for invite command
+129 %u is now invited.
+
+# Smail strings ...
+130 You have ^5NEW^ smail!
+131 %u has received your smail.
+132 What would you like to smail?
+133 <=- Begin Smail -=>
+
+# Deleted all the smail
+134 You deleted the Caramilk secret!
+135 Which smail did you want to delete?
+136 Your smail is getting water logged.
+137 Could not find specified smail.
+
+# User level was less than needed
+138 You do not have enough access.
+
+# User multi-telled; multi-pemoted (note the spaces)
+139 You tell 
+140 You pemote to 
+
+# Missing information for echos and tells
+145 What would you like to echo?
+173 What would you like to tell %u?
+
+# The ^1 puts bold & colour on (regardless).  The ^ afterwards takes them off.
+146 -=[ AHOY!  %u %desc ^1^]=-
+148 -=] Bon voyage, %u %desc ^1^[=-
+150 You deleted %number piece(s) of smail.
+
+# Hidden user count (shows at end of .who)
+153  hidden.  Total users: 
+# Invisible user was in a room when it got locked
+154 You are not alone ...
+
+# No password given, when user tried to change it
+155 No password specified.
+# Display the changed password
+156 Your ^5new^ password is: 
+
+# Banning sites ...
+157 That site is now banned!
+158 Could not ban that site ... not to worry.
+159 That site is no longer banned.
+160 That site could not be found.
+161 Cannot ban ^Localhost^!
+162 Need more of the site's address.
+163 Sorry, your site has been banned.
+
+# Macro information ...
+164 Need more to your macro than that.
+
+# Show the adjoining rooms
+166 From here you can go to:
+
+# Muzzled user tried to shout
+172 You cannot shout, oh muzzled one!
+
+# Arrested messages
+174 %u has been tossed into %r by %w!
+175 You cannot move ...
+176 You cannot use tells ...
+177 You cannot use shouts ...
+178 You cannot use crewcast ...
+179 You cannot use message boards ...
+180 You cannot use smail ...
+181 You cannot read help ...
+
+# Tells user they are arrested (with .set)
+183 You are arrested.
+# Tried to arrest an arrested user
+184 That user is already arrested.
+
+# Stunned user tried to do something
+182 You cannot do anything ...
+
+# Tried to free a freed user! (Duh!)
+185 That user is already free.
+# Crewcast indicating a freed user
+186 has freed %u!
+
+# Captain loaded up things on the fly ...
+ 94 Strings loaded succesfully.
+ 96 Rooms loaded sucessfully.
+187 Banned sites loaded succesfully.
+191 New user levels loaded succesfully.
+192 New command levels loaded successfully.
+
+193 %r's review level changed to %l.
+194 Press ^Enter^ to continue, or ^q^ followed by ^Enter^ to stop reading.
+195 Your rows are set to: %number
+196 What would you like to write?
+197 Which messages would you like to wipe?
+198 %u posted a message on the board.
+199 %u has wiped %number message(s) off the board.
+200 <=- Begin Message Board -=>
+201 <=-  End Message Board  -=>
+202 There are %number message(s).
+203 <=-  End Smail  -=>
+
+# A user tried to review a room that she didn't have enough access to.
+#
+204 The walls are too thick for your eyes.
+205 %u has locked %r.
+206 %u has unlocked %r.
+
+207 You have no smail to clear!
+208 There are no messages to wipe!
+209 You look into %r and see ...
+210 Word wrap is now on.
+211 Word wrap is now off.
+212 The load command failed!
+213 Talker macros loaded successfully.
+214 Your columns are set to: %number
+215 ^ -=>^ %u says: %s^1^ ^<=-
+
+# Multi-tell.  %u = users that were multi-telled; %w = user that did it
+#
+216 ^ -> %u %w tells you: %s
+
+# User logged on as "quit"
+#
+217 Please come again, soon!
+
+218 OOT has been running for: %s
+219 %u knocks on the door.
+220 Invite requests are on.
+221 Invite requests are off.
+222 You knock on %r.
+223 Forwarding smail to E-mail is on.
+224 Forwarding smail to E-mail is off.
+225 Rooms failed loading at ^%r^.
+
+# Smart emotes for Says, Shouts, Tells, and WizCasts.
+#   Thangalin laughs!
+#   Thangalin's brain explodes!
+#
+226 %u %s
+227 %u%s
+228 & %u %s
+229 & %u%s
+230 ^ -> %u %s
+231 ^ -> %u%s
+232 ^ -=>^ %u %s ^<=-^
+233 ^ -=>^ %u%s ^<=-^
+
+# For entering views one line at a time (%number works here, too)
+#
+234 That line of your information is blank.
+235 That line doesn't exist.
+236 Line ^5%number^ reads as follows:
+237 Line ^5%number^ has been changed to:
+238 %r has nobody in it right now.
+
+239 You cannot read %r's message board.
+240 You cannot write on %r's message board.
+241 You cannot wipe messages from %r's.
+242 You need to specify some text to look for.
+
+243 %r's read level changed to %l.
+244 %r's wipe level changed to %l.
+245 %r's write level changed to %l.
+
+246 <=- Begin Suggestion Board -=>
+247 <=-  End Suggestion Board  -=>
+248 Your suggestion has been noted.
+
+249 Your beeps are on.
+250 Your beeps are off.
+
+251 You change your E-mail address to:
+252 You change your Homepage URL to:
+253 Your current E-mail address is:
+254 Your current Homepage URL is:
+
+255 You haven't specified an E-mail address, yet.
+256 You haven't specified your Homepage URL, yet.
+257 Currently Logged On
+258 Your current abbreviations are:
+259 You changed the following abbreviation: 
+
+# User tried to make an abbreviation out of ., a-z, or 0-9
+#
+260 That would not be wise.
+261 You deleted the abbreviation.
+262 That abbreviation was not found.
+
+263 -=> SOS %u %s <=-
+264 Reading SOS messages.
+265 Ignoring SOS messages.
+
+266 You cannot change that setting.
+267 You deleted %number lines from your profile.
+

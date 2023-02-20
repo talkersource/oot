@@ -1,0 +1,12 @@
+^Help - Emote
+USAGE: .emote ^message
+WHERE: ^message^ is what you wish to emote to everybody in the room.
+
+Use this command when you want to do an action to all the other users in
+the room you are in.
+
+EXAMPLES
+  .emote smiles.
+
+SEE ALSO
+  ^.help pemote^, ^.help semote^, ^.help abbr^

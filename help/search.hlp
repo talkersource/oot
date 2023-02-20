@@ -1,0 +1,16 @@
+^Help - Search
+USAGE: .search [^smail^] ^text^
+WHERE: ^text^ is what you're looking for
+
+Use this command when you want to look for some text either in your smail,
+or on the current room's message board.  The first example shows what you
+would type to search all your current smail for the name "bob".  The second
+example shows what you would type to search the message board in the room
+you're currently in for "@" (E-Mail addresses, typically).
+
+EXAMPLES
+  .search smail bob
+  .search @
+
+SEE ALSO
+  ^.help read^, ^.help rmail

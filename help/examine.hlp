@@ -1,0 +1,8 @@
+USAGE: .examine ^user
+WHERE: ^user^ is an alias you wish to view the status of
+
+Use this command when you want to see more information about a user (such as
+the last time she logged on).
+
+SEE ALSO
+  ^.help who^, ^.help view

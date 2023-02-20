@@ -1,0 +1,21 @@
+^Help - Commands
+
+^Newbie
+  abbr         afk          cls          colours      emote        go
+  help         information  look         map          oot          quit
+  review       rooms        say          set          socials      version
+  who          with         wrap
+^User
+  beep         cbuff        cmail        description  examine      join    
+  invite       macro        pemote       private      read         rmail
+  semote       shout        smail        tell         topic        view
+  write
+^Wizard
+  broadcast    wizcast      down         echo         ewizcast     free
+  hide         jail         kill         move         muzzle       site
+  wipe         up
+^God
+  demote       load         nuke         promote      rank         shutdown
+
+SEE ALSO:
+  ^.help help^, ^.help set

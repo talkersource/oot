@@ -1,0 +1,21 @@
+^Help - Bansite
+USAGE: .bansite [^delete^] ^address
+WHERE: ^address^ is part of the name of the address you want to ban
+       ^delete^ indicates to take ^address^ off the banned sites list
+ 
+Use this command when you want to ban a full site name, or simply a
+portion of the domain name, specified by ^address^.
+ 
+EXAMPLES
+  .bansite microsoft
+  .bansite del java.sun.com
+
+In the first example, any site which contains "microsoft" would no longer
+be able to log onto the talker.  Which includes "gates.microsoft.com".
+
+The second example removes the banning (i.e., permits logging on) from any
+site which contains "java.sun.com" in the ^address^.  Only applies to
+sites which have been previously banned.
+ 
+SEE ALSO
+  ^.help kill^, ^.help nuke

@@ -1,0 +1,10 @@
+^Help - Broadcast
+USAGE: .broadcast ^message
+WHERE: ^message^ is the text you wish to broadcast
+ 
+Use this command when you want to send an anonymous message to all the 
+users currently online.  This is ideally used for emergency 
+situations.
+ 
+SEE ALSO
+  ^.help shout

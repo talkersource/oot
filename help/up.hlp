@@ -1,0 +1,9 @@
+^Help - Up
+USAGE: .up ^user
+WHERE: ^user^ is somebody online you wish to promote
+ 
+Use this command when you wish to raise the rank of a new user so that
+she can use more commands.
+ 
+SEE ALSO
+  ^.help promote^, ^.help down^, ^.help rank

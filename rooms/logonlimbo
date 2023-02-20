@@ -1,0 +1,12 @@
+Name = Logon Limbo
+Access = 2
+Lock = 4
+Review = 3
+View = 3
+Warp = 4
+
+<desc>
+Enter a new domain of sights and well, uhm ... sights.  You are neither
+here nor there, but pretty soon you should be.  No, this is not Nowhere,
+this is somewhere.
+</desc>

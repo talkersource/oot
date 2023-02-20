@@ -1,0 +1,10 @@
+^Help - Invite
+USAGE: .invite ^user
+WHERE: ^user^ is somebody that is currently online
+
+Use this command when you want to invite another user into the room
+you are in.  There is no way (yet) to uninvite a user once they have
+been invited.  You may only invite a user once.
+
+SEE ALSO
+  ^.help join^, ^.help go^, ^.help private

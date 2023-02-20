@@ -1,0 +1,86 @@
+--------------------------------------------------
+OOT - The Object-Oriented Talker
+      Copyright 1996 by Dave Jarvis and Ken Savage
+--------------------------------------------------
+
+Please read the files COPYING and LICENSE.
+
+You'll find that OOT is closer to a hybrid of C++ and C, than it is of
+pure Object-Oriented C++.  Keeping that in mind, if I were to write OOT
+over, there would be several new classes (Macro, Abbr, Client, Server,
+Executor) devised.  The key, as I have learned, to Object-Orientation is
+to keep drilling yourself with "One Object Represents One Thing".
+
+I'm going to digress a bit and share the insights I have learned, and
+general thoughts, in the hopes they may prove useful.
+
+An Object is just that.  An Object.  It not easy to precisely define what
+behaviour a particular Object should encapsulate, and what behaviour
+belongs to another Object.  Ken Savage (the co-author of OOT) came up with
+a rather nice example of how difficult this can be at times.  He used but
+two Objects: a Car and a Garage.
+
+Car
+  Has methods to:
+    accelerate( int velocity )
+    stop( int brakePressure )
+    turnLeft( int angle )
+    turnRight( int angle )
+    repair( Garage theGarage )
+    ... etc.
+
+Garage
+  Has methods to:
+    open( Time whatTime )
+    close( Time whatTime )
+    ... etc.
+
+When you create Objects you should try and model them as close to reality
+as possible.  There aren't too many cars that I know of which can actually
+repair themselves.  This isn't typical behaviour of a car (although we all
+wish it was!).  It is the typical behaviour of a garage.  Thus the Car
+shouldn't have a method called "repair( Garage theGarage )" but rather the
+Garage should have a method called "repair( Car aCar )".  Some might think
+the difference is akin to splitting hairs.  It isn't.  It is the difference
+between a good design and a potentially bad one.
+
+Follow through the design as it is.  The "repair( Garage theGarage )"
+method would mean the car must know the steps a particular garage takes
+to fix it.  This tightly couples a particular implementation of Car to
+a particular implementation of Garage.  OOP tries to veer away from the
+tight coupling of any two objects.
+
+To reflect on OOT itself, the User class should have a minimal knowledge
+of Macros.  Same for a Talker.  The behaviour of Macros should have been
+split out into a class unto itself.  This would promote reuse, thus making
+the amount of memory smaller as well as making macros easier to maintain.
+Alas, live and learn.
+
+Another key to Object-Orientation (which can be applied just as easily
+to procedural/functional programming) is along the same vein.  "One
+Method (function) Should Do One Thing."  When you find yourself writing
+documentation that reads "... this function will do this, or if this is
+true it will do something else ...," it is time to rethink the method
+(or function), and/or break it up into smaller components.
+
+--------------------------------------------------------------------------
+Please keep in mind that I do not have time to answer questions or
+attempt to solve any bugs that may occur in OOT.  I feel I have done an
+ample job at documenting the code so that most people should be able
+to figure it out.  I am always, of course, open to any bug fixes you
+wish to send me.
+
+OOT has been compiled successfully on: Linux, SunOS, FreeBSD, and BSDI.
+--------------------------------------------------------------------------
+
+In respect for the hours of work, if you do modify the code please leave
+the names of the original authors (Dave Jarvis & Ken Savage) in the .version
+command.
+
+Lastly, I'd like to say that I learned much from writing this code
+(Feb. 1996-Dec. 1996).  It is my hope that you may learn as much (and more)
+from it as I did.
+
+Sincerely,
+Dave Jarvis
+

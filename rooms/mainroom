@@ -1,0 +1,15 @@
+Name = Main Room
+Access = 1
+Lock = 4
+Read = 2
+Review = 2
+View = 1
+Warp = 2
+Wipe = 3
+Write = 2
+
+<desc>
+After coming through the ether known as Logon Limbo, you find yourself
+somewhat lightheaded, but amidst a friendly crowd.  Relax in the knowledge
+that you aren't Somewhere, aren't Nowhere, but are here.
+</desc>

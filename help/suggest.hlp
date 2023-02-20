@@ -1,0 +1,9 @@
+^Help - Suggest
+USAGE: .suggest [^message^]
+WHERE: ^message^ is the message to write on the suggestion board
+
+Use this command when you want to write an anonymous message that everybody
+can read.
+
+SEE ALSO
+  ^.help read^, ^.help wipe

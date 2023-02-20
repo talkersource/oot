@@ -1,0 +1,11 @@
+^Help - Move
+USAGE: .move ^user room
+WHERE: ^user^ is somebody online you wish to move
+       ^room^ is where you wish to move that somebody
+ 
+Use this command when you want to forcibly move a user from 
+their current room to another room.  Your user level must be 
+at least the same level as the destination room.
+ 
+SEE ALSO
+  ^.help join^, ^.help who

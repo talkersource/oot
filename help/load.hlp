@@ -1,0 +1,18 @@
+^Help - Load
+USAGE: .load ^option
+WHERE: ^option^ is to load:
+           ^commands^ - new levels required for each command
+           ^levels^   - new levels for the talker
+           ^macros^   - new macros for the talker
+           ^strings^  - new version of strings.dat
+           ^rooms^    - new versions of the rooms
+ 
+Use this command when you have made changes to any rooms in the talker's
+^rooms^ subdirectory, changes to ^strings.dat^, ^commands.dat^, or
+^levels.dat^ in the talker's ^data^ subdirectory.
+
+You do not need to shut the Talker down to issue this command.  The changes
+are effective immediately.
+ 
+SEE ALSO
+  ^.help shutdown

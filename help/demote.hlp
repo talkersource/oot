@@ -1,0 +1,10 @@
+^Help - Demote
+USAGE: .demote ^user
+WHERE: ^user^ is somebody you wish to demote
+ 
+Use this command when you wish to lower the rank (and hence availability of
+commands) of a user that is currently online.  An SU may not be demoted from
+online.
+ 
+SEE ALSO
+  ^.help down^, ^.help promote^, ^.help rank

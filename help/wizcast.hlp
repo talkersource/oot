@@ -1,0 +1,13 @@
+^Help - Wizcast
+USAGE: .wizcast ^message
+WHERE: ^message^ is something you wish to say to other users
+
+Use this command when you want to send a message to only the Wizards and
+Gods that are online
+
+EXAMPLES
+  .wizcast
+  .wizcast Hello fellow high ranking officials!
+
+SEE ALSO
+  ^.help ewizcast^, ^.help say^, ^.help tell^, ^.help shout^, ^.help abbr
